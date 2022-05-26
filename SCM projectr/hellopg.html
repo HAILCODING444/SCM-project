@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #main{
+        z-index: 0;
+        position: absolute;
+        height: 1000px;
+        width:100%;
+        background-color: pink;
+        
+
+    }
+    #box1{
+        position: relative;
+        z-index: 2;
+        height: 500px;
+        width: 500px;
+        border-top: solid 3px red ;
+        border-right: solid 3px green;
+        border-left: solid 3px yellow;
+        border-bottom: solid 3px blue;
+        background-color: red;
+        left: 18.3%;
+        top: 40px;
+        border-radius: 50px;
+        display: inline-block;
+    }
+    #box2{
+        position: relative;
+        z-index: 3;
+        height: 500px;
+        width: 500px;
+        border-top: solid 3px red ;
+        border-right: solid 3px green;
+        border-left: solid 3px yellow;
+        border-bottom: solid 3px blue;
+        background-color: yellow;
+        border-radius: 50px;
+        top: 40px;
+        left: 15%; 
+        display: inline-block;
+    }
+    #tabl{
+        width: 100%;
+        border: solid green 1px;
+        border-radius: 15px;
+    }
+    td,tr{
+        color: purple;
+        border: solid green 1px;
+        border-radius: 15px;
+    }
+</style>
+<body>
+    <div id="main">
+        <div id="box1">
+            <h1>Hello</h1>
+        </div>
+        <div id="box2">
+            <h1>CSS</h1>
+        </div>
+        <br>
+        <br>
+        <br>
+        <p>These are the two images</p>
+        <h1>CSS Properties To Use</h1>
+        <p>Here we will be covering CSS Properties</p>
+        <table id="tabl" >
+            <tr>
+                <td><b>S.No</b></td>
+                <td><b>Subjects</b></td>
+                <td><b>credit</b></td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>IoT</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Php</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Machine Learning</td>
+                <td>30</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
